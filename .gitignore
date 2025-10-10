@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Input files
+inputs/*.mp3
+*.mp3
+
+# Output files
+outputs/*.json
+*.json
+
+# Audio files (optional - uncomment if you don't want to commit audio)
+# inputs/*.mp3
+# inputs/*.wav
+# *.mp3
+# *.wav
+
+# Docker
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Whisper model cache (large files)
+~/.cache/whisper/
+
+# pytest
+.pytest_cache/

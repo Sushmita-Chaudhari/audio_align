@@ -1,0 +1,14 @@
+# Audio-to-JSON Alignment Tool - Dependencies
+
+# CLI Framework
+typer[all]==0.9.0
+
+# OpenAI Whisper for transcription with word-level timing
+openai-whisper>=20231117
+
+# Progress bars
+tqdm==4.66.1
+
+# PyTorch (required by Whisper)
+torch>=2.0.0
+torchaudio>=2.0.0
